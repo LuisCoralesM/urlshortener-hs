@@ -1,7 +1,7 @@
 module Main (main) where
 
-import URLShortener (urlShortener)
+import Shortener (shortener)
 
 main :: IO ()
 main =
-  urlShortener
+  shortener
